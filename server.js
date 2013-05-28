@@ -112,7 +112,7 @@ var httpServer = http.createServer(function(req, res) {
   } 
 });
 
-httpServer.listen(80); 
+httpServer.listen(process.env.PORT); 
 // httpServer.listen(8764); 
 
 
